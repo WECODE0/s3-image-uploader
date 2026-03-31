@@ -15,9 +15,9 @@ BUCKET_NAME = "my-devops-images"      # Replace with your S3 bucket name
 s3 = boto3.client(
     "s3",
   
-    aws_access_key_id="///",
+    aws_access_key_id="//",
     aws_secret_access_key="//",
-    region_name="///"
+    region_name="//"
 )
 
 # -------------------------------
